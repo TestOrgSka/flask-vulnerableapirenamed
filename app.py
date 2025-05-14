@@ -5,6 +5,7 @@ import os
 import subprocess
 
 API_KEY = "adfasdfasdfasdfasdfadsfasdf"
+SECRET = "Hello World"
 
 from jwt import InvalidSignatureError
 
