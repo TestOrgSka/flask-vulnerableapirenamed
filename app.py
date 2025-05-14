@@ -6,6 +6,8 @@ import subprocess
 
 from jwt import InvalidSignatureError
 
+API_KEY = "dfadsfasdfadsfadsfasdfasdfadsf"
+
 app = Flask(__name__)
 
 @app.route('/')
