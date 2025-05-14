@@ -4,6 +4,8 @@ import jwt
 import os
 import subprocess
 
+API_KEY = "adfasdfasdfasdfasdfadsfasdf"
+
 from jwt import InvalidSignatureError
 
 app = Flask(__name__)
