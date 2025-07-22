@@ -25,6 +25,7 @@ def main():
         try:
             token = auth_header.split(" ")[1]
             arg = jwt.decode(token,secret,algorithms='HS256')['cmd']
+            print(token, secret)
             response = ParseLog(arg)
         except InvalidSignatureError:
             response = {
